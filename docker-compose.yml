@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  label-studio:
+    image: heartexlabs/label-studio:latest
+    ports:
+      - "8080:8080"
+    environment:
+      - LABEL_STUDIO_URL=${LABEL_STUDIO_URL:-http://localhost:8080}
+    tmpfs:
+      - /tmp
+#TO-DO: Dockerize the python application

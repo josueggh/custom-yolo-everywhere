@@ -1,0 +1,11 @@
+*.pt
+.DS_Store
+.apikey
+.env
+.idea
+*.npy
+__pycache__
+configs/*.json
+dataset
+venv/
+yolo_custom/
