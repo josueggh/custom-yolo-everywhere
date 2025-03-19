@@ -1,5 +1,10 @@
 # Custom YOLO Everywhere
 
+<img src="https://firebasestorage.googleapis.com/v0/b/josue-ggh.firebasestorage.app/o/covers%2Fheader.png?alt=media&token=f6f0b4cf-bdb3-4abf-a581-223980a92f3e  "/>
+
+![License](https://img.shields.io/github/license/josueggh/custom-yolo-everywhere?logo=github)
+![Issues](https://img.shields.io/github/issues/josueggh/custom-yolo-everywhere)
+
 Custom YOLO Everywhere is an open-source solution that bridges the gap between image annotation and custom object
 detection model deployment. This project seamlessly integrates Label Studio with a YOLO client, automating the entire
 workflow from annotation export to model training and multi-format export. Whether you want to deploy on the web using
@@ -87,7 +92,7 @@ selected, it triggers the training script (`app/train.py`) with the chosen confi
 Similarly, this option lists the configuration files. When you select one, it runs the export script (`app/export.py`)
 with the chosen configuration file as a parameter to convert your trained model to TensorFlow format.
 
-# Runing on Apple Silicon
+# Running on Apple Silicon
 
 To run on Apple Silicon (M1/M2), create and activate an ARM-native virtual environment and install the required packages:
 
