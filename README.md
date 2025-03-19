@@ -6,6 +6,11 @@ workflow from annotation export to model training and multi-format export. Wheth
 TensorFlow.js, on mobile, or other native platforms via TFLite, this tool empowers developers, researchers, and
 hobbyists to build and deploy custom YOLO models.
 
+### Video Tutorial 🎥  
+For a step-by-step guide on setting up and using **Custom YOLO Everywhere**, check out our tutorial:  
+📺 [Watch the video on YouTube](https://www.youtube.com/watch?v=sAkxTy7Vy6w)  
+
+
 ## Prerequisites
 
 - **Docker & Docker Compose:** to run Label Studio.
